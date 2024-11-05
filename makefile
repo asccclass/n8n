@@ -4,6 +4,9 @@ DBServer=Qdrant
 port=5678
 CURDIR=D:\n8n\\
 
+s:
+	git push -u origin main
+
 clean:
 	docker system prune -a -f
 	docker volume prune
